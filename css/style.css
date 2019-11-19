@@ -1,0 +1,156 @@
+body {
+      font-family: Roboto;
+      margin: 0;
+      background: #343233;
+}
+
+.container {
+      max-width: 1200px;
+      text-align: center;
+      margin: 0 auto;
+      padding: 0 3rem;
+}
+
+@media screen and (max-width: 580px) {
+      .container {
+            padding: 0 2rem;
+      }
+}
+
+h1, h2 {
+      font-weight: 300;
+      margin-top: 12px;
+      margin-bottom: 8px;
+}
+
+h3, h4 {
+      font-weight: 300;
+      margin-top: 12px;
+      margin-bottom: 8px;
+}
+
+h1 {
+      font-size: 54px;
+      color: #FFD152;
+      text-align: center;
+}
+
+h2 {
+      font-size: 42px;
+      color: #8D8273;
+      text-align: center;
+}
+
+
+h3 {
+      font-size: 54px;
+      color: #FFD152;
+      text-align: center;
+}
+
+h4 {
+      font-size: 42px;
+      color: #8D8273;
+      text-align: center;
+}
+
+
+p {
+      margin: 20px 0;
+      color: #8D8273;
+      line-height: 24px;
+}
+
+img {
+      margin: 10px 0;
+      width: 90%;
+      border-radius: 40%;
+}
+
+
+i {
+      font-size: 42px;
+      letter-spacing: 14px;
+      color: #8D8273;
+}
+
+
+/*TeamName */
+
+.TeamName {
+      width: 100%;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      overflow-y: hidden;
+}
+
+.TeamName .container {
+      margin-top: 34vh;
+}
+
+.TeamName h2 {
+      color: #8D8273;
+}
+
+@media screen and (max-width: 580px) {
+      .TeamName h2 {
+            font-size: 24px;
+      }
+
+      .TeamName p {
+            display: none;
+      }
+}
+
+/* Team Section */
+
+#Team {
+      background: #282627;
+      padding: 9rem 0;
+}
+.container .Team-content h3 {
+      font-weight: 300;
+      margin-top: 240px;
+      margin-bottom: 8px;
+}
+
+.Team-content {
+      display: grid;
+      grid-gap: 80px;
+      grid-template-columns: repeat(2, 1fr);
+      text-align: left;
+}
+
+@media screen and (max-width: 580px) {
+      .Team-content {
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: repeat(1, 1fr);
+            text-align: left;
+      }
+      .container .Team-content h3 {
+            font-weight: 300;
+            margin-top: 12px;
+            margin-bottom: 8px;
+      }
+      
+
+}
+
+
+
+/* footer Section */
+
+footer {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      padding: 1em 0;
+      background: #282627;
+}
+
+footer span {
+      color: #8D8273;
+      font-weight: 600;
+}
